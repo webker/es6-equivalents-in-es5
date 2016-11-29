@@ -2,9 +2,9 @@
 
 *Please note this document is very much a work in progress. Contributions are welcome.*
 
-**Table of contents:**
+**目录:**
 
-1. [Arrow Functions](#arrow-functions)
+1. [箭头函数](#arrow-functions)
 1. [Block Scoping Functions](#block-scoping-functions)
 1. [Template Literals](#template-literals)
 1. [Computed Property Names](#computed-property-names)
@@ -23,10 +23,9 @@
 1. [About](#about)
 1. [License](#license)
 
-## Arrow Functions
+## 箭头函数
 
-An arrow function expression (also known as fat arrow function) has a shorter syntax compared to function expressions and lexically binds the this value. Arrow functions are always anonymous.
-
+与函数表达式相比，箭头函数表达式（也称为胖箭头函数）具有更短的语法，并且以词法的方式绑定this，而且箭头函数是匿名的。
 
 ES6:
 
@@ -35,7 +34,7 @@ ES6:
 // -> [ 2, 4, 6 ]
 ```
 
-ES5 equivalent:
+相当于ES5的写法:
 
 ```js
 [1, 2, 3].map(function(n) { return n * 2; }, this);
